@@ -50,7 +50,8 @@ while True:
             results = requests.get(url_base)
             time.sleep(5)
 
-        elif num[0:3] == ['Vermelho', 'Vermelho', 'Vermelho']:
+        elif num[0:3] == ['Vermelho', 'Vermelho', 'preto','Vermelho',]:
+            
 
             text = '''✅ Entrada confirmada, entrar no ⚫
                       Buscar apoio no ⚪'''
